@@ -4,7 +4,34 @@
   font-family: Raleway, sans-serif;
   list-style-type: none;
   transition: 0.2s ease-in-out;
+  letter-spacing: 1px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+em {
+  line-height: 1.5;
   font-weight: 500;
+  letter-spacing: 1px;
+  margin: 0px;
+  padding: 0px;
+}
+
+*::selection {
+  background-color: var(--color-1);
+}
+
+p,
+a {
+  font-weight: 400;
+  margin: 0px;
+  padding: 0px;
+  color: var(--color-tx-2);
 }
 
 a:hover {
@@ -13,6 +40,7 @@ a:hover {
 
 :root {
   --color-1: #FF589E;
+  --color-2: #7D5DE5;
   --color-tx-1: #1E1E1E;
   --color-tx-2: #777777;
 }
