@@ -7,6 +7,13 @@
   letter-spacing: 1px;
 }
 
+:root {
+  --color-1: #FF589E;
+  --color-2: #7D5DE5;
+  --color-tx-1: #1E1E1E;
+  --color-tx-2: #777777;
+}
+
 h1,
 h2,
 h3,
@@ -24,6 +31,7 @@ em {
 
 *::selection {
   background-color: var(--color-1);
+  color: white;
 }
 
 p,
@@ -36,13 +44,6 @@ a {
 
 a:hover {
   text-decoration: none;
-}
-
-:root {
-  --color-1: #FF589E;
-  --color-2: #7D5DE5;
-  --color-tx-1: #1E1E1E;
-  --color-tx-2: #777777;
 }
 
 .font-13 {
