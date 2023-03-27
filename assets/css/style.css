@@ -294,3 +294,150 @@ header nav ul li:last-child {
 .section-7 .btn a:hover {
   background-color: var(--color-1);
 }
+
+/* section-8 */
+.section-8 {
+  background-image: url(../images/fun-facts-bg.png);
+  background-size: cover;
+}
+
+.section-8 .box-content {
+  height: 340px;
+  position: relative;
+}
+
+.section-8 .box-content:hover {
+  margin-top: -10px;
+}
+
+.section-8 .box-content:hover img {
+  margin-top: 10px;
+}
+
+.section-8 strong {
+  margin-top: 120px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.section-8 .odd {
+  position: absolute;
+  right: -50px;
+  top: 170px;
+}
+
+.section-8 .even {
+  position: absolute;
+  right: -50px;
+  top: 150px;
+}
+
+/* section-9 */
+.section-9 {
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.section-9 .box-title h2 {
+  margin-bottom: 30px;
+}
+
+.section-9 .box-title p {
+  margin-bottom: 40px;
+}
+
+.section-9 .inner-box img {
+  width: 100%;
+}
+
+.section-9 .inner-box h3 {
+  margin: 20px 0;
+}
+
+.section-9 .inner-box h3 a {
+  color: var(--color-tx-1);
+}
+
+.section-9 .inner-box h3 a:hover {
+  color: var(--color-1);
+}
+
+.section-9 .inner-box p {
+  margin-bottom: 25px;
+}
+
+.section-9 .btn a {
+  padding: 12px 20px;
+  color: white;
+  background-color: var(--color-2);
+  border-radius: 20px;
+}
+
+.section-9 .btn a:hover {
+  background-color: var(--color-1);
+}
+
+/* section-10 */
+.section-10 {
+  padding: 160px 0;
+  background: #F2F2FE;
+}
+
+.section-10 .box-title h2 {
+  margin-bottom: 30px;
+}
+
+.section-10 .box-title p {
+  margin-bottom: 40px;
+}
+
+.section-10 .box-des h5,
+.section-10 .box-des p {
+  margin-bottom: 28px;
+}
+
+.section-10 .input {
+  width: 100%;
+  border: white solid 1px;
+  border-radius: 20px;
+  padding: 6px 20px;
+  margin-bottom: 30px;
+  line-height: 2.3;
+}
+
+.section-10 .btn a {
+  padding: 12px 20px;
+  background-color: var(--color-2);
+  color: white;
+  border-radius: 20px;
+}
+
+.section-10 .btn a:hover {
+  background-color: var(--color-1);
+}
+
+/* footer */
+footer {
+  background-image: linear-gradient(90deg, var(--color-1), var(--color-2));
+  padding-top: 30px;
+}
+
+footer .box-contact a {
+  margin: 0 10px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: white;
+  color: var(--color-2);
+}
+
+footer .box-contact a:hover {
+  color: white;
+  background-color: var(--color-1);
+}
+
+footer .box-cpr {
+  border-top: 1px solid #F2F2FE;
+  margin-top: 30px;
+  padding: 30px 0;
+}

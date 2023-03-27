@@ -40,6 +40,13 @@ a {
   margin: 0px;
   padding: 0px;
   color: var(--color-tx-2);
+  line-height: 1.5;
+}
+
+ul,
+.btn {
+  padding: 0;
+  margin: 0;
 }
 
 a:hover {
